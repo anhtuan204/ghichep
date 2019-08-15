@@ -2,7 +2,7 @@ Site-to-Site Example Configuration (SSL/TLS)
 
 
 
-../_images/diagrams-openvpn-site-to-site-ssl_tls.png
+![](../images/diagrams-openvpn-site-to-site-ssl_tls.png)
 OpenVPN Example Site-to-Site SSL/TLS Network
 
 The process of configuring a site-to-site connection using SSL/TLS is more complicated than Shared Key. However, this method is typically much more convenient for managing a large number of remote sites connecting back to a central site in a hub-and-spoke fashion. It can be used for a site-to-site between two nodes, but given the increased configuration complexity, most people prefer to use shared key rather than SSL/TLS for that scenario.

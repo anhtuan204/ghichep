@@ -85,7 +85,9 @@ DNS Server 1 & 2 : Đặt DNS 8.8.8.8 và 8.8.4.4
 Custom option : Cho phép các dải mạng LAN được phép kết nối với nhau.
 (Nếu không sử dụng bỏ qua)
 ```sh 
-push "route 172.17.10.0 255.255.255.0";push "route 172.17.12.0 255.255.255.0";push "route 172.17.13.0 255.255.255.0"
+push "route 172.17.10.0 255.255.255.0";
+push "route 172.17.12.0 255.255.255.0";
+push "route 172.17.13.0 255.255.255.0"
 ```
 
 ![](images/pf_17.png)
